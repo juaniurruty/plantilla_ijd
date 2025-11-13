@@ -1,0 +1,114 @@
+\documentclass[aspectratio=169, 10pt]{beamer}
+\setbeamersize{text margin left=18pt,text margin right=18pt}
+
+
+\mode<presentation> {
+\usetheme{default}
+\setbeamertemplate{footline}[page number] 
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{navigation symbols}{}
+}
+
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{tcolorbox}
+\usepackage{ragged2e}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{amssymb}
+\usepackage{dirtytalk}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage[spanish]{babel}
+\usepackage{xcolor}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[default]{sourcesanspro}
+
+% En esta línea creo el azul que hicieron en UCUR, es el mismo código, se ve un poco distinto
+\definecolor{customblue}{HTML}{014b83}
+
+
+
+\begin{document}
+
+
+% Diapo del título, no volver a copiar
+\setbeamercolor{background canvas}{bg=customblue}
+\setbeamercolor{normal text}{fg=customblue}
+\begin{frame}
+    \color{white}
+
+  \begin{textblock*}{3cm}(0.2cm,0.2cm)
+    \includegraphics[width=7cm]{Institutos_Justicia Social y Desigualdades_blanco.png}
+  \end{textblock*}
+
+    \vspace{2.5cm}
+
+\begin{center}     
+\LARGE \textbf{El impacto de tener una plantilla de Latex}
+\end{center}
+
+\vspace{1.5cm}
+    
+\footnotesize Juan Ignacio Urruty
+
+\vspace{1.5mm}
+
+Presentadores
+
+\vspace{1.5mm}
+
+Fecha: \today
+
+\vspace{1.5mm}
+
+Lugar:
+
+
+   
+\end{frame}
+
+%######################################################################################
+% Diapo blanca, volver a copiar las veces que haga falta
+%########################################################################################
+\setbeamercolor{background canvas}{bg=white}
+\setbeamercolor{normal text}{fg=customblue}
+\begin{frame}{}    
+    \color{customblue}
+    
+\begin{textblock*}{3cm}(0.2cm,0.2cm)
+    \includegraphics[width=5.5cm]{Institutos_Justicia Social y Desigualdades_azul.png}
+\end{textblock*}
+
+
+
+\Large Diapo blanca
+
+\vspace{3mm}
+
+\normalsize \textcolor{customblue}{Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.}
+ 
+ 
+\end{frame}
+
+%######################################################################################
+% Diapo azul, volver a copiar las veces que haga falta
+%########################################################################################
+\setbeamercolor{background canvas}{bg=customblue}
+\setbeamercolor{normal text}{fg=white}
+\begin{frame}    
+    \color{white}
+
+  \begin{textblock*}{3cm}(0.2cm,0.2cm)
+    \includegraphics[width=5.5cm]{Institutos_Justicia Social y Desigualdades_blanco.png}
+  \end{textblock*}
+
+ \Large Diapo azul
+
+   
+\end{frame}
+
+\end{document}
